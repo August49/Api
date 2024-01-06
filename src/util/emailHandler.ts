@@ -28,7 +28,7 @@ const buttonStyle = `
   border-radius: 12px;
 `;
 
-const IP = process.env.IP || "192.168.1.2";
+const IP = process.env.IP;
 const PORT = process.env.PORT;
 const token = crypto.randomBytes(20).toString("hex");
 
